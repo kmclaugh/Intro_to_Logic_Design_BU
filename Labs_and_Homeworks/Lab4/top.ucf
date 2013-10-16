@@ -1,0 +1,29 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Add0" LOC = D9;
+NET "Add1" LOC = C9;
+
+
+NET "LEDout[0]" LOC = L14;
+NET "LEDout[1]" LOC = N14;
+NET "LEDout[2]" LOC = M14;
+NET "LEDout[3]" LOC = U18;
+NET "LEDout[4]" LOC = U17;
+NET "LEDout[5]" LOC = T18;
+NET "LEDout[6]" LOC = T17;
+
+##Clock signal
+Net "clk_in" LOC=V10 | IOSTANDARD=LVCMOS33;
+Net "clk_in" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+NET "rst" LOC = C4;
+
+
+# PlanAhead Generated physical constraints 
+
+NET "AN0" LOC = N16;
+NET "AN1" LOC = N15;
+NET "AN2" LOC = P18;
+NET "AN3" LOC = P17;

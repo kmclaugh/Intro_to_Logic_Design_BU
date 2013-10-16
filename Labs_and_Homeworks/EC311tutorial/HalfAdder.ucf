@@ -1,0 +1,9 @@
+
+
+NET "A" LOC = C4;
+NET "B" LOC = D9;
+NET "COUT" LOC = T11;
+
+# PlanAhead Generated physical constraints 
+
+NET "SUM" LOC = R11;
